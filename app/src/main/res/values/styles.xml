@@ -1,0 +1,18 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="android:fontFamily">@font/lato_regu</item>
+        <item name="colorPrimary">@color/m_normal</item>
+        <item name="colorPrimaryDark">@color/m_dark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+       // <item name="android:windowAnimationStyle">@style/WindowAnimationStyle</item>
+
+    </style>
+    <style name="WindowAnimationStyle">
+        <item name="android:windowEnterAnimation">@android:anim/slide_in_left</item>
+        <item name="android:windowExitAnimation">@android:anim/slide_out_right</item>
+    </style>
+
+</resources>
